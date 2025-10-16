@@ -7,6 +7,7 @@
         prometheus_data/
         kafka-data/
         zookeeper-data/
+        zookeeper-log
 
         # Ignore a specific file
         #config.local.js

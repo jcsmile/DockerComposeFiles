@@ -1,0 +1,18 @@
+        # Ignore all .log files
+        *.log
+
+        # Ignore the 'data' directories
+        grafana_data/
+        grafana-provisioning/
+        prometheus_data/
+        kafka-data/
+        zookeeper-data/
+
+        # Ignore a specific file
+        #config.local.js
+
+        # Ignore everything in the 'build' directory
+        build/
+
+        # Exclude a specific file from a previously ignored directory
+        #!build/important_file.txt
